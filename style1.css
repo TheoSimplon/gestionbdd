@@ -1,0 +1,45 @@
+/* Paramètres pour la totalité du tableau */
+table {
+	width: 500px ;
+	margin: auto ;
+	border-collapse: collapse ;
+}
+
+/* Paramètres pour les cellules classiques ET les cellules d'en-tête */
+table th, table td {
+	border: 1px solid #8f10ff ;	
+	padding: 5px ;
+}
+
+/* Paramètres pour les lignes d'en-tête uniquement */
+table thead tr {
+	background-color: #8f10ff ;
+	color: #ffffff ; 
+}
+
+/* Paramètres pour les lignes de contenu */
+table tbody tr {
+	background-color: #f2ecfe ;
+}
+
+/* Paramètres pour les lignes de contenu paires */
+table tbody tr:nth-child(2n) { 
+	background-color: #f9f6ff ;
+}
+
+/* Paramètres pour les lignes de contenu au survol de la souris */
+table tbody tr:hover { 
+	background-color: #5000a9 ;
+	color: #ffffff ; 
+}
+.liste {
+	overflow: auto;
+	width: 100%;
+	height: 300px;
+}
+.bouton{
+	text-align: center;
+}
+header {
+	text-align: center;
+}
